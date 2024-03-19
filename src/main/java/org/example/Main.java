@@ -50,11 +50,11 @@ public class Main {
         return (firstAge>=13 && firstAge<=19) ||  (secondAge >= 13 && secondAge <= 19) || (thirdAge >= 13 && thirdAge <= 29);
     }
 
-    public static boolean isCatPlaying(boolean isSummer, int temp) {
+    public static boolean isCatPlaying(boolean isSummer, int temperature) {
         if (isSummer) {
-            return temp > 25 && temp <= 45;
+            return temperature > 25 && temperature <= 45;
         }
-        return temp > 25 && temp <= 35;
+        return temperature > 25 && temperature <= 35;
     }
 
 
